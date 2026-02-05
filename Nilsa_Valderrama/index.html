@@ -19,22 +19,20 @@
     .card {
       background: #ffffff;
       width: 360px;
-      padding: 28px 22px 24px;
+      padding: 26px 22px 22px;
       border-radius: 22px;
       text-align: center;
       box-shadow: 0 25px 60px rgba(0,0,0,0.35);
     }
 
-    .profile-pic {
-      width: 110px;
-      height: 110px;
-      border-radius: 28px;
-      object-fit: cover;
-      margin: 10px auto 14px;
+    .logo {
+      width: 140px;
+      margin: 10px auto 12px;
+      display: block;
     }
 
     h1 {
-      margin: 6px 0 6px;
+      margin: 6px 0 4px;
       font-size: 26px;
       font-weight: 700;
     }
@@ -49,7 +47,7 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      gap: 10px;
+      gap: 12px;
       width: 100%;
       padding: 14px;
       margin: 10px 0;
@@ -86,24 +84,18 @@
     }
 
     .email {
-      background: #f2f2f2;
+      background: #f3f3f3;
       color: #000;
       border: 1px solid #ddd;
     }
 
-    .linkedin {
-      background: #0A66C2;
+    .instagram {
+      background: linear-gradient(45deg,#F58529,#DD2A7B,#8134AF,#515BD4);
       color: #fff;
     }
 
-    .instagram {
-      background: linear-gradient(
-        45deg,
-        #F58529,
-        #DD2A7B,
-        #8134AF,
-        #515BD4
-      );
+    .linkedin {
+      background: #0A66C2;
       color: #fff;
     }
 
@@ -124,7 +116,8 @@
 <body>
   <div class="card">
 
-    <img src="squadra.jpg" alt="Nilsa Valderrama" class="profile-pic"/>
+    <!-- Company Logo -->
+    <img src="squadra.jpg" alt="Squadra Arquitectura" class="logo"/>
 
     <h1>Nilsa Valderrama</h1>
     <div class="subtitle">Architect · Squadra Arquitectura</div>
@@ -148,7 +141,7 @@
     </a>
 
     <!-- Email -->
-    <a class="btn email" href="mailto:gregsun83@gmail.com">
+    <a class="btn email" href="mailto:nilsaval@gmail.com">
       <img src="../assets/Gmail_logo.png" alt="">
       Email
     </a>
