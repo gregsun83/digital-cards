@@ -5,8 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <title>Sonia Hernandez – Digital Card</title>
 
-<!-- Google Fonts -->
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+<!-- Fancy Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
 
 <style>
 body {
@@ -29,32 +29,35 @@ body {
 }
 
 /* Logo */
-.logo-circle {
-  width: 130px;
-  height: 130px;
+.logo-wrapper {
+  position: relative;
+  width: 140px;
   margin: 0 auto 16px;
-  border-radius: 50%;
-  background: linear-gradient(135deg,#6a11cb,#2575fc);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  font-size: 48px;
-  font-weight: 600;
-  font-family: 'Playfair Display', serif;
-  letter-spacing: 2px;
-  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+.logo-wrapper img {
+  width: 140px;
+  display: block;
+}
+
+.logo-initials {
+  position: absolute;
+  bottom: -10px;
+  right: -10px;
+  font-family: 'Great Vibes', cursive;
+  font-size: 42px;
+  color: #b58b2a;
+  text-shadow: 0 3px 8px rgba(0,0,0,0.25);
 }
 
 /* Name */
 h1 {
-  font-family: 'Playfair Display', serif;
-  font-size: 28px;
+  font-family: 'Great Vibes', cursive;
+  font-size: 36px;
   margin: 6px 0 4px;
   color: #2c2c2c;
 }
 
-/* Title */
 .subtitle {
   font-size: 16px;
   color: #555;
@@ -72,7 +75,7 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 10px;
+  gap: 12px;
 
   width: 85%;
   margin: 10px auto;
@@ -91,6 +94,11 @@ h1 {
   box-shadow: 0 8px 18px rgba(0,0,0,0.18);
 }
 
+.btn img {
+  height: 20px;
+}
+
+/* Button Colors */
 .save {
   background: linear-gradient(135deg,#6a11cb,#2575fc);
   color: #fff;
@@ -129,9 +137,10 @@ h1 {
 <body>
 <div class="card">
 
-  <!-- Elegant Logo -->
-  <div class="logo-circle">
-    SH
+  <!-- Logo with Initials -->
+  <div class="logo-wrapper">
+    <img src="speech-logo.png" alt="Language Logo">
+    <div class="logo-initials">SH</div>
   </div>
 
   <h1>Sonia Hernandez</h1>
@@ -140,21 +149,25 @@ h1 {
 
   <!-- Save Contact -->
   <a class="btn save" href="digital-cards/Sonia_Hernandez/sonia-hernandez.vcf">
+    <img src="../assets/user_icon.png" alt="">
     Guardar Contacto
   </a>
 
   <!-- Call -->
   <a class="btn call" href="tel:+573102263420">
+    <img src="../assets/call_icon.jpg" alt="">
     Llamar +57 310 226 3420
   </a>
 
   <!-- WhatsApp -->
   <a class="btn whatsapp" href="https://wa.me/573102263420">
+    <img src="../assets/whatsapp_icon.png" alt="">
     WhatsApp
   </a>
 
   <!-- Email -->
   <a class="btn email" href="mailto:soeher@gmail.com">
+    <img src="../assets/Gmail_logo.png" alt="">
     Correo
   </a>
 
