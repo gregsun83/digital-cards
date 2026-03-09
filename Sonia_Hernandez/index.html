@@ -1,1 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Sonia Hernandez – Digital Card</title>
 
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+
+<style>
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg,#5f72bd,#9b23ea);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.card {
+  background: #ffffff;
+  width: 360px;
+  padding: 28px 22px 24px;
+  border-radius: 24px;
+  text-align: center;
+  box-shadow: 0 25px 60px rgba(0,0,0,0.25);
+}
+
+/* Logo */
+.logo-circle {
+  width: 130px;
+  height: 130px;
+  margin: 0 auto 16px;
+  border-radius: 50%;
+  background: linear-gradient(135deg,#6a11cb,#2575fc);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 48px;
+  font-weight: 600;
+  font-family: 'Playfair Display', serif;
+  letter-spacing: 2px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+/* Name */
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 28px;
+  margin: 6px 0 4px;
+  color: #2c2c2c;
+}
+
+/* Title */
+.subtitle {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 6px;
+}
+
+.languages {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 22px;
+}
+
+/* Buttons */
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+  width: 85%;
+  margin: 10px auto;
+  padding: 14px;
+
+  border-radius: 999px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 15px;
+
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 18px rgba(0,0,0,0.18);
+}
+
+.save {
+  background: linear-gradient(135deg,#6a11cb,#2575fc);
+  color: #fff;
+}
+
+.call {
+  background: #1f1f1f;
+  color: #fff;
+}
+
+.whatsapp {
+  background: #25D366;
+  color: #fff;
+}
+
+.email {
+  background: #f3f3f3;
+  color: #000;
+  border: 1px solid #ddd;
+}
+
+.footer {
+  margin-top: 18px;
+  font-size: 12px;
+  color: #888;
+}
+
+.footer a {
+  color: #888;
+  text-decoration: none;
+  font-weight: 500;
+}
+</style>
+</head>
+
+<body>
+<div class="card">
+
+  <!-- Elegant Logo -->
+  <div class="logo-circle">
+    SH
+  </div>
+
+  <h1>Sonia Hernandez</h1>
+  <div class="subtitle">Intérprete Profesional</div>
+  <div class="languages">Francés · Inglés · Español · Portugués</div>
+
+  <!-- Save Contact -->
+  <a class="btn save" href="digital-cards/Sonia_Hernandez/sonia-hernandez.vcf">
+    Guardar Contacto
+  </a>
+
+  <!-- Call -->
+  <a class="btn call" href="tel:+573102263420">
+    Llamar +57 310 226 3420
+  </a>
+
+  <!-- WhatsApp -->
+  <a class="btn whatsapp" href="https://wa.me/573102263420">
+    WhatsApp
+  </a>
+
+  <!-- Email -->
+  <a class="btn email" href="mailto:sonia.hernandez@gmail.com">
+    Correo
+  </a>
+
+  <div class="footer">
+    <a href="https://wa.me/50767317853">Powered by Digital Cards Panama</a>
+  </div>
+
+</div>
+</body>
+</html>
